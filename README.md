@@ -21,7 +21,7 @@ flowchart LR
 | 구성 요소 | 내용 (코드/회로도 근거) |
 |---|---|
 | 메인 컴퓨터 | Jetson Orin Nano 8GB, JetPack 6.0 (L4T 36.3.0) |
-| MCU | ESP32 — 회로도 기준 LOLIN D32(ESP32-WROOM-32). 조직 프로필에 기재된 ESP32-S3 DEV Module의 용도는 확인 필요 |
+| MCU | ESP32 — 회로도 기준 LOLIN D32(ESP32-WROOM-32). IoT 가전 제어·센서 통합 담당 |
 | 센서 | DHT11(GPIO19), 가스 디지털 출력(GPIO34), 조도 디지털 출력(GPIO27) |
 | 가전 제어 | IR 송신 모듈 (Arduino-IRremote, NEC / LG 프로토콜) |
 | 링크 | Jetson `/dev/ttyTHS1` ↔ ESP32 UART2(GPIO16/17), 9600 8N1 |
